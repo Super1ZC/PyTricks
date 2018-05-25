@@ -1,0 +1,14 @@
+# Python has a HTTP server built into the
+# standard library. This is super handy for
+# previewing websites.
+
+"""run this command in cmd.exe for Windows 10"""
+# Python 3.x
+$ python -m http.server
+
+"""I did not try this one"""
+# Python 2.x
+$ python -m SimpleHTTPServer 8000
+
+# (This will serve the current directory at
+#  http://localhost:8000)
